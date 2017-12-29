@@ -1,0 +1,106 @@
+<html>
+    <body style="background-color:rgb(255, 178, 115);">
+        <head>
+            <Title>Admission</Title>
+            <style>
+                    table, th, td {
+                        border: 1px solid black;
+                    }
+                    </style>
+                    <link href="Practice.css" type="text/css" rel="stylesheet"/>
+        </head>
+        <img src="OnlineAdd.jpg" alt="Main image" 
+        height="200" width="1250"/>
+        <p>
+         <a href="Home.html">Home</a>
+          <a href="About.html">About</a>
+         <a href="Online.html">Online Admission</a>
+        </p>
+        <h1 id="onlineh1">Online Registration</h1>
+        <form Mehtod="post">
+            <p>
+        <table>
+            <tr>
+               <p> <strong><label for="FirstName" style="margin:1%">First Name :</label></strong><input type="text" name="FirstName" size="30" id="FirstName" required/>
+              <strong><label for="LastName" style="margin:1%">Last Name :</label></strong><input type="text"  name="LastName" size="30" id="LastName" required/></p>
+              <!-- <br/> -->
+               <!-- <br/> -->
+               <p style="margin:-0.5%"></p><strong><label for="ValidEmail" style="margin:0.7%">Valid Email :</label> </strong> <input type="email" name="Email" id="ValidEmail" size="30"required /></p>
+                <!-- <br/> -->
+                <!-- <br/> -->
+               <p style="margin:-0.4%"><strong><label for="Religion" style="margin:3%">Religion :</label></strong><select name"Religion"id="Religion" style="margin-left:-2%"/>
+                           <option value="Islam">Islam</option>
+                           <option value="Christianity">Christianity</option>
+                           <option value="Gnosticism">Gnosticism</option>
+                           <option value="Buddhism">Buddhism</option>
+                           <option value="Hinduism">Hinduism</option>
+                           <option value="Others">Others</option>
+                           </select>
+                </p>
+                <p style="margin:1.3%"><strong><label for="Gender" style="margin:1.8%">Gender :</label></strong><input type="Radio" name="Gender" Value="Male" style="margin-left:-1%"/>Male
+                           <input type="Radio" name="Gender" Value="Female" />Female
+                </p>     
+                <p style="margin:0.5%">
+                 <strong><label for="Edu" style="margin:0%">Qualification</label></strong><table style="Width:100%" id="Edu">
+                     <tr>
+                         <th>Qualification level</th>
+                         <th>Year</th>
+                         <th>School/College/University</th>
+                         <th>Grades</th>
+                     </tr>
+                     <tr>
+                         <td style="width:30"><strong>Matriculation</strong></td>
+                         <td style="width:10"><input type="Text"name="Matricyear"></td>
+                         <td style="width:40"><input type="Text"name="MatricUni"size="90"> </td>
+                         <td style="width:10"><input type="Text"name="MatricGrade"size="20"> </td>
+                     </tr>
+                        <tr>
+                                <td style="width:30"><strong>Intermediate</strong></td>
+                                <td style="width:10"><input type="Text"name="interyear"></td>
+                                <td style="width:40"><input type="Text"name="interCollege" size="90"></td>
+                                <td style="width:10"><input type="Text"name="interGrade" size="20"></td>
+                        </tr>
+                            <tr>
+                                    <td style="width:30"><strong>Bachelor</strong></td>
+                                    <td style="width:10"><input type="Text"name="Bachloryear"></td>
+                                    <td style="width:40"><input type="Text"name="BachlorUni"size="90"> </td>
+                                    <td style="width:10"><input type="Text"name="BachlorGrade"size="20"> </td>
+                                </tr>
+                                <tr>
+                                        <td style="width:30"><strong>Master</strong></td>
+                                        <td style="width:10"><input type="Text"name="Masteryear"> </td>
+                                        <td style="width:40"><input type="Text"name="MasterUni"size="90" </td>
+                                        <td style="width:10"><input type="Text"name="MasterGrade"size="20"> </td>
+                                    </tr>
+                 </table>
+                </p>
+                <p style="margin:1.5%"><strong><label for="Mobile" style="margin:-0.5%">Mobile No. :</label></strong><input type="text" name="Mobile" size="30" id="Mobile" style="margin-left:1.5%"/></p>
+             <p style="margin:-0.5%">
+               <strong><label for="DOB" style="margin:-0%">Date Of Birth :</label></strong><input type="date" name="DOB" size="30" id="DOB" style="margin-left:1%"/></p>
+             </p>
+             <p style="margin:1.5%">
+               <!-- <strong><label for="Comments" style="margin:-0.5%">Describe your Self :</label></strong><br/> -->
+                <textarea name="Comments" id="Comments" cols="100" rows="3" style="margin-left:-1.9%">Describe your Self</textarea><br/><br/>
+             
+             <!--   <input type="submit" style="margin-left:-1%">-->
+                <button type="submit" formaction="Submit.html"style="margin-left:-1%" id="onlinebtn">Submit</button>
+            </p>
+        </table>
+             <p align="right">
+             <strong>If you have any queries,Feel free to contact us</strong>
+             <div style="width: auto"align="right">
+             <fieldset style="width:250" align="right">
+                 <legend align="left">
+                     Contact Info
+                 </legend>
+                 <p><label style="margin-right:27%"><strong>Phone No. : </strong>021-3xxxxxxx</label><br/>
+                    <label style="margin-right:24%"><strong>Mobile No. :</strong>+923xxxxxxxxx</label><br/>
+                    <label style="margin-right:10%"><strong>Email :</strong>Helpme@helpus.com</label>
+                 </p>
+             </fieldset>
+             </div>
+            </p>
+            </p>
+        </form>
+    </body>
+</html>
